@@ -1,5 +1,5 @@
  body {
- 	background-image: url(images/homework-3.png); 
+ 	background-image: url(images/Homework-3.png); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
@@ -42,45 +42,57 @@ ol {
 }
 
 .number1::before { 
-   content:" ";
+   content:"1";
    height: 25px;
    width: 25px;
-   background-image: url(images/1.png);
+   border-radius: 50%;
+   background-color: #38AFE5;
    background-size: 100% 100%;
    display: block;
    float: left;
    position: relative;
    top: 5px;
- 
+   background-image: none;
+   border-color: #5099BA;
+   color: white;
+   text-align: center;
 
 }
 
 .number2::before {
-   content:" ";
+   content:"2";
    height: 25px;
    width: 25px;
-   background-image: url(images/2.png);
+   border-radius: 50%;
+   background-color: #38AFE5;
    background-size: 100% 100%;
    display: block;
    float: left;
    position: relative;
    top: 5px;
-  
+   background-image: none;
+   border-color: #5099BA;
+   color: white;
+   text-align: center;
 
 
 }
 
 .number3::before {
-   content:" ";
+   content:"3";
    height: 25px;
    width: 25px;
-   background-image: url(images/3.png);
+   border-radius: 50%;
+   background-color: #38AFE5;
    background-size: 100% 100%;
    display: block;
    float: left;
    position: relative;
    top: 5px;
-   
+   background-image: none;
+   border-color: #5099BA;
+   color: white;
+   text-align: center;
 
 }
 .font {
